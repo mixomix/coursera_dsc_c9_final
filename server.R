@@ -7,7 +7,7 @@
 #    http://shiny.rstudio.com/
 #
 
-library("shiny")
+library("shiny") 
 library("TTR")
 library("lubridate")
 library("ggplot2")
