@@ -1,0 +1,27 @@
+---
+title: "Documentation for shiny app project"
+author: "Jakub Vedral"
+date: "4 èervence 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Simple stock market analysis tool  
+
+### Purpose
+
+Application is based on EuStockmarkets dataset. This simple app tries to implement simple stock market analysis by charting
+market indeces and applying simple moving average (MA) to selected indeces.
+
+### UI
+
+Aplication has one sidepanel with control and main panel with displying chart.
+
+In the top section of side panel you can pick index or indices to display on chart (by check boxes).
+Under that section you can choose to display Moving Average in the time series plot.
+The period of moving average can be picked by slider.
+
+If you choose not to display specific index, but you apply MA to it, it will be forces to display (together with MA).
