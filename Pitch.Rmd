@@ -1,0 +1,54 @@
+---
+title: "Coursera Project: Simple stock market analysis tool"
+author: "Jakub Vedral"
+date: "5 July 2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## App
+My project application uses EuStockMarket dataset. 
+
+```{r EuStockMarkets}
+head(EuStockMarkets)
+```
+
+It is very basic tool for index prices development analysis.
+
+Application can be found here:
+https://mixomix.shinyapps.io/analysis_tool/
+
+## App features
+
+Application has this main features
+
+- Basic charing and presentation of historical index data
+- Basic moving average indicator calculation
+
+
+## Inputs
+
+You can choose to input these options:
+- indexes to show
+- whether or not count Moving Average
+- range of the Moving average
+- indexes to count Moving average on
+
+## Technology behind
+Application is done in Shiny with following packages
+
+```{r echo= TRUE, eval= FALSE}
+library("shiny") 
+library("TTR")
+library("lubridate")
+library("ggplot2")
+library("reshape2")
+
+```
+
+## Thank you
+Thank you for your attention.
+

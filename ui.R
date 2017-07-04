@@ -38,7 +38,7 @@ shinyUI(fluidPage(
     # Show a plot of the generat  ed distribution
     mainPanel(
       plotOutput("distPlot"),
-      a(href="http://rpubs.com/mixomix/289184", "Documentation here!")
+      a(href="https://mixomix.github.io/coursera_dsc_c9_final/Docs.html", "Documentation here!")
     )
   )
 ))
