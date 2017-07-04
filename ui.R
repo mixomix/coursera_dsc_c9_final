@@ -38,7 +38,7 @@ shinyUI(fluidPage(
     # Show a plot of the generat  ed distribution
     mainPanel(
       plotOutput("distPlot"),
-      a(href="www.rstudio.com", "Documentation here!")
+      a(href="http://rpubs.com/mixomix/289184", "Documentation here!")
     )
   )
 ))
